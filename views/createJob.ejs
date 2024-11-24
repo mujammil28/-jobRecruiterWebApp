@@ -1,0 +1,20 @@
+<h1>Create Job</h1>
+<form method="POST" action="/jobs/create">
+  <div class="mb-3">
+    <label>Category</label>
+    <input type="text" name="jobcategory" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label>Designation</label>
+    <input type="text" name="jobdesignation" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label>Location</label>
+    <input type="text" name="joblocation" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label>Salary</label>
+    <input type="text" name="salary" class="form-control" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Create Job</button>
+</form>
